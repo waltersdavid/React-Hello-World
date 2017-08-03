@@ -1,17 +1,11 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
 
-class Home extends React.Component {
-  render() {
-    return (
-      <div>
-        Hi I am from home
-        <Link to='/about'>
-          <button>About</button>
-        </Link>
-      </div>
-    )
-  }
+const Home = (props) => {
+  return (
+    <div>
+      Home route
+    </div>
+  )
 }
 
 export default Home;
