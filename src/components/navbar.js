@@ -4,7 +4,7 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        changed the navbar to test - dorian was here
+        changed the navbar to test - tyler was here
       </div>
     )
   }
